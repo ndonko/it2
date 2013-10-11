@@ -19,6 +19,8 @@ gem 'will_paginate', '3.0.4'
 
 gem 'rails_12factor', group: :production
 
+gem 'faker', '0.3.1'
+
 #gem 'gmaps4rails', '0.7.7'
 
 # Gems used only for assets and not required
@@ -36,7 +38,7 @@ end
 group :development do
   gem 'rspec-rails'     #, '2.5.0'
   gem 'annotate'
-  gem 'faker', '0.3.1'
+ # gem 'faker', '0.3.1'
 end
 
 group :test do

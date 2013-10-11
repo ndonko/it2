@@ -29,7 +29,7 @@ prix 1 a{margin-left:46px;font-size:14px;} prix2 a{margin-left:46px;font-size:14
 
 #offre3{border-right:1px solid blue; margin-top:0px;width: 370px;height: 250px;position:relative;float:left; margin-left:10px;margin-right:0px;}
 
-#offre3 h3{height:46px;uppercase;text-align:center;background-color:#B6B6B6;color:navy; opacity: 1;text-align: center;text-transform: uppercase;}
+#offre3 h3{height:46px;text-transform:uppercase;text-align:center;background-color:#B6B6B6;color:navy; opacity: 1;text-align: center;text-transform: uppercase;}
 
 #domaine1 p{color:blue;float: left;font-family: fantasy;font-size: 49px;margin-left: 10px;position: relative;margin-top:0px;}
 #domaine2 p{color: blue;float: left;font-family: fantasy;font-size: 49px;margin-left: 42px;position: relative;margin-top:0px;}

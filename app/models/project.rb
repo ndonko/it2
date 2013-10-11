@@ -4,7 +4,7 @@ class Project < ActiveRecord::Base
   :question18,:question19,:question20,:question21,:question22,:question23,:question24,:question25,:question26,
   :question27,:question28,:question29,:question30
   
-  belongs_to :client
+  belongs_to :clients
   
   validates :question1, :presence => true, :length =>{ :maximum => 140 }
   validates :question2, :presence => true

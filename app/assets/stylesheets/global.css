@@ -3,7 +3,7 @@ background-image: -o-radial-gradient(center, circle closest-corner, #FFFFFF 0%, 
 background-image: -webkit-radial-gradient(center, circle closest-corner, #FFFFFF 0%, #00A3EF 100%);
 background-image: radial-gradient(circle closest-corner at center, #FFFFFF 0%, #00A3EF 100%);}
 #animation{border: 2px solid blue;box-shadow: 1px 12px 19px sienna;height:250px;margin-left: 197px;width: 800px;}
-#info_generale{background-color:white;relative;float:left;width:1021px;height:auto;margin-left:158px;margin-bottom:10px;margin-top:10px;}
+#info_generale{background-color:white;position:relative;float:left;width:1021px;height:auto;margin-left:158px;margin-bottom:10px;margin-top:10px;}
 
 #offre1{border-bottom:1px solid blue;  border-right:1px solid blue; width:370px;height: 250px;position:relative;float:left;margin-left:10px;margin-right:0px;margin-top:26px;}
 

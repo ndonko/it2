@@ -1,0 +1,32 @@
+<table id="message">
+	<tr class="message">
+		<td>nom</td>
+		<td>Prenom</td>
+		<td>email</td>
+		<td>entreprise</td>
+		<td>telephone</td>
+		<td>message</td>
+	</tr>
+	<% @message.each do |message| %>
+	<tr class="messages">
+	 <td> <%= message.nom %> </td>
+	 <td> <%= message.prenom %> </td>
+	 <td> <%= message.email %> </td>
+	 <td> <%= message.entreprise %> </td>
+	 <td> <%= message.telephone %> </td>
+	 <td> <%= link_to 'show messge', message %> </td>
+	 </tr>
+	 
+	 <% end %>
+	
+	</tr>
+</table>
+
+
+<!-- <ul>
+	 <% @message.each do |message| %>
+	 <li> <%= message.nom %></li>
+	 
+	 <% end %>
+</ul>-->
+<p>Find me in app/views/messages/index.html.erb</p>

@@ -1,0 +1,23 @@
+<% if signed_in? %>
+
+<table class="front" summary="pour visiteur identifié">
+	
+	 <tr>
+		<td class="main" > 
+	    	<h1>quoi de neuf ? </h1> 
+		    <%= render 'shared/project_form'%>
+		</td>
+		
+		<td class="sidebar round">
+		   	<%= render 'shared/client_info' %>
+	    </td>
+		
+     </tr>
+</table>
+
+<% else %>
+     <h1> Vous devez etre identifier pour acceder a cette page </h1>
+    <%= link_to "Identification", signin_path, :class=> "signup_button round" %>
+<% end %>
+
+

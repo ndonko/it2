@@ -1,0 +1,142 @@
+@media screen and (min-width:980px)
+{
+ header
+{
+    color:white;
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: 7px;
+    /*text-shadow: 0 -2px 3px gold;*/
+    text-transform: uppercase;
+    
+}
+
+header p
+{
+    color:navy;
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: 7px;
+    margin-left: 191px;
+    /*text-shadow: 0 -2px 3px gold;*/
+    text-transform:lowecase;
+    font-family:caption;
+    
+}
+
+
+nav {
+   display: block;
+    float: left;
+    font-size: 14px;
+    margin-left: 176px;
+    margin-top: -88px;
+    position: relative;
+    width: 1057px;
+}
+
+nav ul {
+   margin:80px -26px 20px ;
+   padding:.7em;
+   float:left;
+   list-Style:none;
+   /*background: #0000FF #444;*/
+ /*  background:rgba(0,0,255,.64);
+   -moz-border-radius: .5em;
+   -webkit-border-radius: .5em;
+   border-radius: .5em;    
+   -moz-box-shadow: 0 1px 0 rgba(255,255,255,.2), 0 2px 1px rgba(0,0,0,.8) inset;
+   -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.2), 0 2px 1px rgba(0,0,0,.8) inset;
+   box-shadow: 0 1px 0 rgba(255,255,255,.2), 0 2px 1px rgba(0,0,0,.8) inset;*/ 
+}
+
+nav li {
+  float:left;
+}
+
+nav a
+{
+    float:left;
+    padding: .8em 1.5em;
+	text-decoration: none;
+	color:sienna;
+	text-shadow: 0 1px 0 rgba(255,255,255,.5);
+	font: bold 1.1em/1 cursive,Helvetica, serif, 'trebuchet MS', Arial, Helvetica;
+	letter-spacing: 1px;
+	text-transform: lowercase;
+	/*border-width: 1px;*/
+	/*border-style: solid;*/
+	/*border-color: #fff #ccc #999 #eee;
+	background: #00009c;
+	background: -moz-linear-gradient(#DDDDFF,#7C7C9C) ;
+	background: -webkit-gradient(linear, left top, left bottom, from(#DDDDFF), to(#7C7C9c));
+	background: -webkit-linear-gradient(#DDDDFF, #7C7C9c);
+	background: -o-linear-gradient(#DDDDFF, #7C7C9c);
+	background: -ms-linear-gradient(#DDDDFF, #7C7C9c);
+	background: linear-gradient(#DDDDFF, #7C7C9c);        
+        border-radius:87px;*/
+}
+
+nav a:hover, nav a:focus {
+	outline: 0;
+	color: #fff;
+	text-shadow: 0 1px 0 rgba(0,0,0,.2);
+	background: #fac754;
+	background: -moz-linear-gradient(#fac754, #f8ac00);
+	background: -webkit-gradient(linear, left top, left bottom, from(#fac754), to(#f8ac00));
+	background: -webkit-linear-gradient(#fac754, #f8ac00);
+	background: -o-linear-gradient(#fac754, #f8ac00);
+	background: -ms-linear-gradient(#fac754, #f8ac00);
+	background: linear-gradient(#fac754, #f8ac00);
+}
+
+nav a:active {
+	-moz-box-shadow: 0 0 2px 2px rgba(0,0,0,.3) inset;
+	-webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,.3) inset;
+	box-shadow: 0 0 2px 2px rgba(0,0,0,.3) inset;
+}
+ 
+nav li:first-child a {
+	border-left: 0;
+	-moz-border-radius: 4px 0 0 4px;
+	-webkit-border-radius: 4px 0 0 4px;
+	  /*4px 0 0 4px;*/            
+}
+
+
+section{
+
+
+    height:auto;
+    margin:auto;
+    margin-bottom: 10px;
+    width:1235px;
+    position:relative;
+    clear:both;
+   
+    
+
+}
+
+div.moto {
+  /*animation-duration: 12s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  text-shadow:0 -47px 1px blue;*/
+  background-color: transparent;
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-left: 192px;
+    margin-top: -25px;
+    text-transform: lowercase;
+    font-family: cursive;
+}
+.round > ul > .important > a
+{
+	color:darkblue;
+}
+
+
+}

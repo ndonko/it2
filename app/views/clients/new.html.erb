@@ -1,0 +1,47 @@
+
+ <div id="form_client">
+ <%= form_for(@client) do |f| %>
+ <h1>Créer un compte client</h1>
+ <%= render 'shared/error_messages_client' %>
+  <div class="field">
+    <%= f.label :nom %><br />
+    <%= f.text_field :nom %>
+  </div>
+  <div class="field">
+    <%= f.label :prénom %><br />
+    <%= f.text_field :prenom %>
+  </div>
+  <div class="field">
+    <%= f.label :entreprise %><br />
+    <%= f.text_field :entreprise %>
+  </div>
+  <div class="field">
+    <%= f.label :téléphone %><br />
+    <%= f.text_field :telephone %>
+  </div>
+  <div class="field">
+    <%= f.label :email %><br />
+    <%= f.text_field :email %>
+  </div>
+  <div class="field">
+    <%= f.label :password %><br />
+    <%= f.password_field :password %>
+  </div>
+  <div class="field">
+    <%= f.label :password_confirmation, "Confirmation" %><br />
+    <%= f.password_field :password_confirmation %>
+  </div>
+  <div class="actions_creer_mon_compte">
+    <%= f.submit "créer mon compte", :class => "mon_compte" %>
+  </div>
+  <% end %>
+<div class="message_to_client"> 
+	<h3> Important </h3>
+<p>La Création d'un compte client de meme que la soumission d'un projet
+ne constitut en aucun cas un contrat. </p>
+<p>Votre projet ne seras pris en compte a partir du moment ou nous aurons recu le formulaire de contrat 
+disponible au bas de page de votre espace client.</p>
+  <p>Vous pouvez telecharger le formulaire, le remplir et le renvoyer par email,fax ou par poste</p>
+ 
+</div>
+</div>

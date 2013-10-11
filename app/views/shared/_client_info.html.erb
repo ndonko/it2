@@ -1,0 +1,11 @@
+<div class="user_info">
+  <a href="<%= client_path(current_client) %>">
+    <%= gravatar_for current_client, :size => 30 %>
+    <span class="user_name">
+      <%= current_client.nom %>
+    </span>
+    <span class="microposts">
+      <%= pluralize(current_client.projects.count, "projet") %>
+    </span>
+  </a>
+</div>

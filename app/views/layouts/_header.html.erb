@@ -1,0 +1,24 @@
+<header> 
+	<p> it2Solutions</p>
+	
+</header>
+         <div class="moto"> Votre web agence </div>
+         
+         	
+  <nav class="round">
+    <ul>
+      <li><%= link_to "Accueil",  root_path %></li>
+      <li><%= link_to "site Web", site_path %></li>
+      <li><%= link_to "responsive Web", responsive_path %></li>
+      <li><%= link_to "E-commerce", ecommerce_path %></li>
+      <li><%= link_to "contact", contact_path %></li>
+      <li><%= link_to "carriere", carriere_path %></li>
+      <li><%= link_to "aide", aide_path %></li>
+      <% if signed_in? %>
+      <li class="important"><%= link_to "déconnextion", signout_path %></li>
+      <%else %>   
+      <li><%= link_to "espace client ",  signin_path %></li>
+      <%end %> 
+    </ul>
+  </nav>
+

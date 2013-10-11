@@ -1,0 +1,35 @@
+<div id="client_show">
+<table class="profile" summary="Information profil">
+  <tr>
+    <td class="main">
+      <h1>
+      	<%= gravatar_image_tag @client.email, :class => "gravatar" %>
+        <!--<%= gravatar_for @client %>-->
+        <%= @client.nom %>
+       </h1>
+       <p>Vous etes dans votre espace client</p>
+       
+    <% unless @client.projects.empty? %>
+          <table class="projects" summary="projet du client">
+             <%= render @projects %>
+          </table>
+             <%= will_paginate @projects %>
+    <% end %>
+       
+    </td>
+    
+    
+    <td class="sidebar round">
+      <strong>Nom</strong> <%= @client.nom %><br />
+      <strong>URL</strong>  <%= link_to client_path(@client), @client %> <br />
+      <strong>Projet</strong> <%= @client.projects.count %>
+    </td>
+  </tr>
+</table>
+
+
+ 	     
+ </div>
+</div>
+
+

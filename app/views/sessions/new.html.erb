@@ -1,0 +1,27 @@
+<div id="form_identification">
+
+<h1>Connecter vous à votre espace client</h1>
+<div class="field">
+<%= form_for(:session, :url => sessions_path) do |f| %>
+  <div class="field">
+    <%= f.label :email, "eMail" %><br />
+    <%= f.text_field :email %>
+  </div>
+  <div class="field">
+    <%= f.label :password, "Mot de passe" %><br />
+    <%= f.password_field :password %>
+  </div>
+  <p class="forgoten_password"><%= link_to "forgotten password?", passwordReset_path %></p>
+  <div class="field remember">
+  <%= check_box_tag :remember_me, 1, params[:remember_me] %>
+  <%= label_tag :remember_me %>
+</div>
+  
+  <div class="actions">
+    <%= f.submit "S'identifier", :class => "submit_session" %>
+  </div>
+<% end %>
+</div>
+<p class="nouveau_compte">Pas encore inscrit ? <%= link_to "crée un compte client", signup_path %></p>
+
+</div>

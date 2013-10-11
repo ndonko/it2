@@ -1,0 +1,17 @@
+<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->  
+  
+ 
+  <%= stylesheet_link_tag "global", :media => "all" %>
+   <%= stylesheet_link_tag "header", :media => "all" %>
+   <%= stylesheet_link_tag "footer", :media => "all" %>
+  
+    <%= stylesheet_link_tag 'blueprint/print',  :media => 'print' %>
+   <%= stylesheet_link_tag 'blueprint/screen', :media => 'screen' %>
+    <!--[if lt IE 8]><%= stylesheet_link_tag 'blueprint/ie' %><![endif]-->
+   <%= javascript_include_tag "galerie" %>
+   <%= javascript_include_tag "mb.bgndGallery" %>
+   <%= javascript_include_tag "jquery-1.7.min" %>
+   <%= javascript_include_tag "jquery-1.7" %>
+  <%= csrf_meta_tags %>

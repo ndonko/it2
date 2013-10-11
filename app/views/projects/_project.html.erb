@@ -1,0 +1,13 @@
+<tr>
+	<td class="project">
+		<p><span class="content"> <%= project.question1 %> </span> </p>
+		<p><span class="content"> <%= project.question2 %> </span> </p>
+		<span class="content"> <%= project.question3 %> </span>
+		<span class="content"> <%= project.question4 %> </span>
+		<span class="timestamp"> 
+		Posté il ya <%= time_ago_in_words(project.created_at) %>.	
+	   </span>
+	</td>
+	
+</tr>
+

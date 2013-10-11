@@ -1,0 +1,12 @@
+<% if @projet.errors.any? %>
+  <div id="error_explanation">
+    <h2><%= pluralize(@projet.errors.count, "erreur") %> 
+        ont empêché d'enregistrer votre projet</h2>
+    <p>Merci de corriger ces champs :</p>
+    <ul>
+    <% @projet.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+    </ul>
+  </div>
+<% end %>

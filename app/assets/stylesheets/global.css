@@ -543,15 +543,21 @@ s{
 }
 #offre > p{
 	color: navy;
-    float: left;
-    font-size: 12px;
-    margin-left: 50px;
+    float: right;
+    font-size: 17px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    margin-left: 0px;
     position: relative;
+    text-align: left;
+    width: 473px;
 }
 .table
 {
 	 margin-left: 54px;
-	margin-bottom: 30px;
+	 margin-bottom: 30px;
+	 line-height:40px;
+	 
 }
 .line{
 	
@@ -563,7 +569,7 @@ s{
     color: blue;
     font-family: Arial;
     font-size: 12px;
-    text-align: right;
+    text-align: left;
 	
 }
 

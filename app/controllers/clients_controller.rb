@@ -1,7 +1,7 @@
 class ClientsController < ApplicationController
   
- # before_filter :authenticate, :only => [:show]
- # before_filter :correct_client, :only => [:show]
+  before_filter :authenticate, :only => [:show]
+  before_filter :correct_client, :only => [:show]
   
   def show
     @client = Client.find(params[:id])

@@ -80,6 +80,5 @@ It2Solution::Application.configure do
   user_name: ENV["GMAIL_USERNAME"],
   password: ENV["GMAIL_PASSWORD"]
 }
-  
- 
 end
+ActionMailer::Base.smtp_settings[:enable_starttls_auto] = false

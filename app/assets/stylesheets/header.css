@@ -1,11 +1,11 @@
  header
 {
-    color:white;
-    font-size: 24px;
-    font-weight: normal;
-    letter-spacing: 7px;
-    /*text-shadow: 0 -2px 3px gold;*/
-    text-transform: uppercase;
+    position: relative;
+    float:left;
+    margin-bottom:0px;
+    margin-top:0;
+    width:1057px;
+    margin-left:180px;
     
 }
 
@@ -13,24 +13,40 @@ header p
 {
     color:navy;
     font-size: 24px;
-    font-weight: normal;
+    font-weight: bolder;
     letter-spacing: 7px;
-    margin-left: 191px;
-    /*text-shadow: 0 -2px 3px gold;*/
-    text-transform:lowecase;
-    font-family:caption;
+    margin:0;
+    text-transform:uppercase;
+    font-family:Arial, Helvetica, sans-serif,Times;
     
+    
+}
+
+div.moto {
+    background-color: transparent;
+    color: blue;
+    font-size: 14px;
+    font-weight: normal;
+    margin-left: 180px;
+    text-transform: lowercase;
+    font-family:Arial, Helvetica, sans-serif;
+    position:relative;
+    float:left;
+    width:1057px;
+    margin-bottom:10px;
 }
 
 
 nav {
-   display: block;
+    display: block;
     float: left;
     font-size: 14px;
-    margin-left: 176px;
-    margin-top: -88px;
+    margin-left: 165px;
+    margin-top:0;
     position: relative;
     width: 1057px;
+    height:57px;
+    margin-bottom:10px;
 }
 
 nav ul {
@@ -103,34 +119,15 @@ nav li:first-child a {
 
 
 section{
-
-
     height:auto;
     margin:auto;
     margin-bottom: 10px;
     width:1235px;
     position:relative;
     clear:both;
-   
-    
+  }
 
-}
 
-div.moto {
-  /*animation-duration: 12s;
-  animation-name: slidein;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  text-shadow:0 -47px 1px blue;*/
-  background-color: transparent;
-    color: white;
-    font-size: 16px;
-    font-weight: bolder;
-    margin-left: 192px;
-    margin-top: -25px;
-    text-transform: lowercase;
-    font-family: cursive;
-}
 .round > ul > .important > a
 {
 	color:darkblue;

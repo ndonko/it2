@@ -17,12 +17,12 @@ class ClientsController < ApplicationController
   def create
        @client = Client.new(params[:client])
     if @client.save
-      #ClientMailer.registration_confirmation(@client).deliver
+      ClientMailer.registration_confirmation(@client).deliver
       sign_in @client
       flash[:success] = "Bienvenue dans votre espace client"
       redirect_to @client 
       
-      ClientMailer.registration_confirmation(@client).deliver
+      #ClientMailer.registration_confirmation(@client).deliver
     else
       @titre= "enregistrement"
       render 'new'
